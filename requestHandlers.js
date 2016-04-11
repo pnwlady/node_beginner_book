@@ -2,9 +2,9 @@ function start () {
   console.log('Request handler "start" was called.');
 };
 
-function upload() {
+function upload () {
   console.log('Request handler "upload" was called.');
 };
 
 exports.start = start;
-exports.start = upload; 
+exports.start = upload;

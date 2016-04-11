@@ -1,13 +1,6 @@
 const http = require('http');
 const url = require('url');
 
-
-http.createServer(function(request, response) {
-  response.writeHead(200, {'Content-Type': 'text/html'});
-  response.write('Hello World');
-  response.end();
-}).listen(8888);
-
 function start(route, handle) {
   function onRequest(request, response) {
     var pathname = url.parse(request.url).pathname;
