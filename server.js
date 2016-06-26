@@ -7,9 +7,9 @@ function start(route, handle) {
     console.log("request for " + pathname + " recieved");
     route(handle, pathname, response, request);
   }
-}
 
-http.createServer(onRequest).listen(8888);
-console.log('server up on port 8888');
+  http.createServer(onRequest).listen(8888);
+  console.log('server up on port 8888');
+}
 
 exports.start = start;
