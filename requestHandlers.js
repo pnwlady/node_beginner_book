@@ -16,11 +16,9 @@ function start(response) {
     '</body>'+
     '</html>';
 
-  exec('ls -lah', function (error, stdout, stderr) {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.write(stdout);
+    response.write(body);
     response.end();
-  });
 }
 
 function upload(response) {
