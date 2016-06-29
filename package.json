@@ -1,0 +1,23 @@
+{
+  "name": "node_beginner_book",
+  "version": "1.0.0",
+  "description": "working through book code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnwlady/node_beginner_book.git"
+  },
+  "author": "heidi laursen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pnwlady/node_beginner_book/issues"
+  },
+  "homepage": "https://github.com/pnwlady/node_beginner_book#readme",
+  "devDependencies": {
+    "formidable": "^1.0.17"
+  }
+}
