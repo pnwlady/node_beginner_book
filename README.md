@@ -10,10 +10,10 @@ requesthandlers.js has the functionality for uploading, reading and showing the 
 
 ### To use this code
 
+To Stare the server:
 ```
 node index
 ```
 
-```
-node
-```
+To upload an image, go to
+http://localhost:8888/ and click the choose a file button, select a png image from your computer and click the upload file button. You photo will display at route http://localhost:8888/show.
